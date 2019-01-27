@@ -1,0 +1,16 @@
+.intro {
+    height: 100vh;
+    background-color: royalblue;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.links {
+    margin-right: 10px;
+}
+
+.icons {
+    margin-right: 5px;
+}
+

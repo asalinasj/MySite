@@ -1,0 +1,43 @@
+.about {
+    margin: 0;
+    padding: 0;
+    background-color: green;
+}
+
+.education {
+
+}
+.fiu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin-left: 10vw; */
+    margin-bottom: 5vh;
+    align-items: stretch;
+}
+
+.fiuphoto {
+    flex-grow: 1;
+}
+
+.fiuinfo {
+    flex-grow: 1;
+}
+
+.fsu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    /* margin-left: 10vw; */
+}
+
+.fsuphoto {
+    flex-grow: 1;
+}
+
+.fsuinfo {
+    flex-grow: 1;
+}
