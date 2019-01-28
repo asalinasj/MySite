@@ -1,17 +1,45 @@
 .about {
     margin: 0;
     padding: 0;
-    background-color: green;
+    /* background-image: linear-gradient(-90deg, red, yellow); */
+}
+
+.about h2, h3 {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.aboutInfo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.aboutInfo img {
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.summary {
+    width: 50%;
+    padding: 10;
+}
+
+.summary p {
+    width: 100%;
 }
 
 .education {
-
+    /* background-color: white; */
+    
 }
+
 .fiu {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     /* margin-left: 10vw; */
     margin-bottom: 5vh;
     align-items: stretch;
@@ -19,25 +47,44 @@
 
 .fiuphoto {
     flex-grow: 1;
+    /* flex: 1;  */
 }
 
 .fiuinfo {
     flex-grow: 1;
+    /* flex: 1; */
 }
 
 .fsu {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: stretch;
+    justify-content: space-evenly;
+    align-items: center;
     /* margin-left: 10vw; */
 }
 
 .fsuphoto {
+    /* flex: 1; */
     flex-grow: 1;
 }
 
 .fsuinfo {
+    /* flex: 1; */
     flex-grow: 1;
+}
+
+.about h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+
+h3 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+h4  {
+    font-size: 20px;
 }

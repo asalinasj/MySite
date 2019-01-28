@@ -1,0 +1,23 @@
+.experience {
+    padding: 0 10px;
+    background-color: white;
+}
+
+.expInfo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.job {
+    flex: 1;
+    /* flex-grow: 1; */
+    
+}
+
+.jobPic {
+    /* flex: auto auto auto; */
+    flex: 2;
+    /* flex-grow: 1; */
+}

@@ -1,0 +1,10 @@
+.listSkills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.listSkills h1 {
+    margin-bottom: 20px;
+}

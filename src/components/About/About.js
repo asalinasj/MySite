@@ -6,8 +6,20 @@ class About extends React.Component {
         return(
             <div className="about">
                 <h2>About</h2>
-                <h3>Education</h3>
+                <div className="aboutInfo">
+                    <img style={{width: 300, height: 300, margin: 0}} src="https://i.ibb.co/g9D0dk6/headshot.jpg" alt="headshot" border="0"/>
+                    <div className="summary">
+                        <p style={{textAlign: "left", fontWeight: "bold"}}>I'm Andres Salinas and I'm an aspiring Full Stack Web and Mobile applications software developer.
+                            Currently, I'm working on my Bachelors Degree in Computer Science at FIU. Throughout my time in the program, 
+                            I've taken every opportunity to learn new technologies, programming lanaguages and stacks. My concentration has been on web and mobile
+                            development focusing on MERN and MEAN stacks. For mobile development, I have worked on hybrid app development 
+                            as well as native Android development. Looking to focus my career on these technologies. I enjoy front end 
+                            as well as back end development  
+                        </p>
+                    </div>
+                </div>
                 <div className="education">
+                    <h3>Education</h3>
                     <div className="fiu">
                         <div className="fiuphoto">
                             <img style={{width: 200, height: 200, margin: 0}}src="https://www.cis.fiu.edu/wp-content/uploads/2016/07/scislogo-1.jpg" alt="fiuscis"/>
